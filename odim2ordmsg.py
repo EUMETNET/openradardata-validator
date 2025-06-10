@@ -1,13 +1,13 @@
-
 import copy
 import datetime
 import io
 import json
-import numpy
 import os
-import pandas
 import sys
-import wradlib as wrl
+
+import h5py
+import numpy
+import pandas
 
 from src.radar_cf import radar_cf
 
@@ -38,8 +38,8 @@ def init_radars(fname=radardb_dir + "/OPERA_RADARS.csv"):
 
 def get_attr(field: object, key: str):
     ret = None
-    if key in field:
-        ret = field[key]
+    if key in field.attrs:
+        ret = field.attrs[key]
         # Array type workaround: return the first element if len == 1
         if isinstance(ret, numpy.ndarray):
             if len(ret) == 1:
@@ -99,7 +99,7 @@ def odim_openradar_msgmem(odim_content, size, test_schema_path):
     # fb_up = io.BytesIO(odim_content)
     fb = io.BytesIO(odim_content)
     try:
-        odim = wrl.io.read_opera_hdf5(fb)
+        odim = h5py.File(fb)
     except Exception as e:
         print("ODIM IO ERROR: {0}".format(e))
         return ret
@@ -111,7 +111,7 @@ def odim_openradar_msgmem(odim_content, size, test_schema_path):
     #    print("ODIM HOW: {0}".format(odim["how"]))
 
     # datetime
-    dt = odim_datetime(odim["what"]["date"], odim["what"]["time"])
+    dt = odim_datetime(odim["what"].attrs["date"], odim["what"].attrs["time"])
     # TODO: import api.metadata_endpoints.py -> datetime_to_iso_string
     def_msg["properties"]["datetime"] = dt.isoformat() + "Z"
     s3_key_dir += datetime.datetime.strftime(dt, "%Y/%m/%d/")
@@ -125,36 +125,36 @@ def odim_openradar_msgmem(odim_content, size, test_schema_path):
     org = find_source_type(source, "ORG")
     station = find_source_type(source, "PLC")
 
-    # Old ODIM implementation, NOD is missing
-    if len(nod) == 0 and org != "247":
-        radar_found = False
-        for i in range(1, len(radars)):
-            rad_wmo = radars["WMO Code"][i]
-            rad_wigos = radars["WIGOS Station Identifier"][i]
-            if len(rad_wmo) and int(rad_wmo) == int(wmo):
-                nod = radars["ODIM code"][i]
-                print("Found ODIM code: {0} [WMO: {1}]".format(nod, wmo))
-                radar_found = True
-            if len(rad_wigos) > 0 and rad_wigos == wigos:
-                nod = radars["ODIM code"][i]
-                print("Found ODIM code: {0} [WIGOS: {1}]".format(nod, wigos))
-                radar_found = True
-            if radar_found:
-                break
+    # # Old ODIM implementation, NOD is missing
+    # if len(nod) == 0 and org != "247":
+    #     radar_found = False
+    #     for i in range(1, len(radars)):
+    #         rad_wmo = radars["WMO Code"][i]
+    #         rad_wigos = radars["WIGOS Station Identifier"][i]
+    #         if len(rad_wmo) and int(rad_wmo) == int(wmo):
+    #             nod = radars["ODIM code"][i]
+    #             print("Found ODIM code: {0} [WMO: {1}]".format(nod, wmo))
+    #             radar_found = True
+    #         if len(rad_wigos) > 0 and rad_wigos == wigos:
+    #             nod = radars["ODIM code"][i]
+    #             print("Found ODIM code: {0} [WIGOS: {1}]".format(nod, wigos))
+    #             radar_found = True
+    #         if radar_found:
+    #             break
 
-        # Fill WIGOS, WMO, Station when missing
-        for i in range(1, len(radars)):
-            if nod == radars["ODIM code"][i]:
-                # print("FOUND: {0} ".format(nod))
-                if isinstance(wmo, str) and len(wmo) == 0:
-                    wmo = radars["WMO Code"][i]
-                if len(wigos) == 0:
-                    rad_wigos = radars["WIGOS Station Identifier"][i]
-                    if len(rad_wigos) != 0:
-                        wigos = rad_wigos
-                if len(station) == 0:
-                    station = radars["Location"][i]
-                break
+    # Fill WIGOS, WMO, Station when missing
+    # for i in range(1, len(radars)):
+    #     if nod == radars["ODIM code"][i]:
+    #         # print("FOUND: {0} ".format(nod))
+    #         if isinstance(wmo, str) and len(wmo) == 0:
+    #             wmo = radars["WMO Code"][i]
+    #         if len(wigos) == 0:
+    #             rad_wigos = radars["WIGOS Station Identifier"][i]
+    #             if len(rad_wigos) != 0:
+    #                 wigos = rad_wigos
+    #         if len(station) == 0:
+    #             station = radars["Location"][i]
+    #         break
 
     if len(wigos):
         def_msg["properties"]["platform"] = wigos
@@ -211,7 +211,8 @@ def odim_openradar_msgmem(odim_content, size, test_schema_path):
 
         coords["lat"] /= 4
         coords["lon"] /= 4
-        coords["hei"] = 0.0
+        def_msg["properties"]["hamsl"] = 0.0
+        # coords["hei"] = 0.0
         def_msg["geometry"]["coordinates"] = coords
         add_attrs = ["projdef", "xscale", "xsize", "yscale", "ysize"]
         set_meta(def_msg["properties"]["radar_meta"], odim["where"], add_attrs)
@@ -230,7 +231,15 @@ def odim_openradar_msgmem(odim_content, size, test_schema_path):
 
             # what attibutes => radar_meta
             if "how" in odim:
-                add_attrs = ["wavelength", "frequency", "beamwidth", "beamwH", "beamwV", "hiprf", "lowprf"]
+                add_attrs = [
+                    "wavelength",
+                    "frequency",
+                    "beamwidth",
+                    "beamwH",
+                    "beamwV",
+                    "hiprf",
+                    "lowprf",
+                ]
                 set_meta(def_msg["properties"]["radar_meta"], odim["how"], add_attrs)
                 if "beamwidth" in def_msg["properties"]["radar_meta"]:
                     bw = def_msg["properties"]["radar_meta"]["beamwidth"]
@@ -252,8 +261,14 @@ def odim_openradar_msgmem(odim_content, size, test_schema_path):
 
         # print("DATASET WHAT: {0}".format(odim[dataset_key + "/what"]))
         # Use dataset startdate, starttime
-        st = odim_datetime(odim[dataset_key + "/what"]["startdate"], odim[dataset_key + "/what"]["starttime"])
-        et = odim_datetime(odim[dataset_key + "/what"]["enddate"], odim[dataset_key + "/what"]["endtime"])
+        st = odim_datetime(
+            odim[dataset_key + "/what"].attrs["startdate"],
+            odim[dataset_key + "/what"].attrs["starttime"],
+        )
+        et = odim_datetime(
+            odim[dataset_key + "/what"].attrs["enddate"],
+            odim[dataset_key + "/what"].attrs["endtime"],
+        )
         td = et - st
         period_int = int(td.total_seconds())
         dataset_msg["properties"]["datetime"] = st.isoformat() + "Z"
@@ -284,9 +299,9 @@ def odim_openradar_msgmem(odim_content, size, test_schema_path):
         product = get_attr_str(odim[dataset_key + "/what"], "product")
         if len(product):
             dataset_msg["properties"]["radar_meta"]["product"] = product
-        prodpar = get_attr_str(odim[dataset_key + "/what"], "prodpar")
-        if prodpar is not None and len(prodpar):
-            dataset_msg["properties"]["radar_meta"]["prodpar"] = prodpar
+        prodpar = float(get_attr(odim[dataset_key + "/what"], "prodpar"))
+        if prodpar is not None:
+            dataset_msg["properties"]["radar_meta"]["prodpar"] = str(prodpar)
 
         if object == "COMP":
             match product:
@@ -326,8 +341,8 @@ def odim_openradar_msgmem(odim_content, size, test_schema_path):
             # gain = get_attr(odim[data_key + "/what"], "gain")
             # offset = get_attr(odim[data_key + "/what"], "offset")
 
-            if "quantity" in odim[data_key + "/what"]:
-                quantity = odim[data_key + "/what"]["quantity"].decode("utf-8")
+            if "quantity" in odim[data_key + "/what"].attrs:
+                quantity = odim[data_key + "/what"].attrs["quantity"].decode("utf-8")
 
                 current_ingest = st.isoformat() + "Z_" + str(level) + "_" + quantity
                 if current_ingest in ingest_list:
@@ -359,7 +374,7 @@ def odim_openradar_msgmem(odim_content, size, test_schema_path):
     s3_key_delim = s3_key_start_delim
     s3_key_level.sort()
     for el in s3_key_level:
-        s3_key_fil += s3_key_delim + str(round(el, 2))
+        s3_key_fil += s3_key_delim + str(round(float(el), 2))
         if s3_key_delim == s3_key_start_delim:
             s3_key_delim = s3_key_field_delim
     s3_key_delim = s3_key_start_delim
@@ -406,7 +421,9 @@ def build_all_json_payloads_from_odim(odim_content: object) -> list[str]:
     """
     ret_str = []
 
-    msg_str_list = odim_openradar_msgmem(odim_content, len(odim_content), test_schema_path)
+    msg_str_list = odim_openradar_msgmem(
+        odim_content, len(odim_content), test_schema_path
+    )
     for json_str in msg_str_list:
         json_odim_msg = json_str
         ret_str.append(copy.deepcopy(json_odim_msg))

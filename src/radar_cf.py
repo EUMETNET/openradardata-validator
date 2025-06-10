@@ -56,7 +56,7 @@ radar_cf["POSH"] = "POSH"
 radar_cf["MESH"] = "MESH"
 
 radar_cf["ACRR"] = "ACRR"
-radar_cf["HGT"] = "HGT"
+radar_cf["HGHT"] = "HGHT"
 radar_cf["VIL"] = "VIL"
 
 radar_cf["VRADH"] = "radial_velocity_of_scatterers_away_from_instrument_h"

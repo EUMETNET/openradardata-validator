@@ -104,7 +104,7 @@
                     "description": "Controlled vocabulary for the names used in the 'instrument' attribute."
                 },
                 "level": {
-                    "type": "integer",
+                    "type": "number",
                     "description": "Product parameter. PVOL, SCAN, PPI: elevation*100. Composite: product parameter. 'Layer height above the radar' at CAPPI, PCAPPI,  'Reflectivity level threshold' at ETOP, EBASE, 'Azumuth angle' at RHI, 'Top heights of the integration layer' at VIL"
                 },
                 "period": {
@@ -284,7 +284,7 @@
                                 "POSH",
                                 "MESH",
                                 "ACRR",
-                                "HGT",
+                                "HGHT",
                                 "VIL",
                                 "VRADH",
                                 "UVRADH",
