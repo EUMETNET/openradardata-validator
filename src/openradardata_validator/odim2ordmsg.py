@@ -10,7 +10,7 @@ import h5py
 import numpy
 import pandas as pd
 
-from openradardata_validator.radar_cf import radar_cf, odim_acdd_attrs
+from openradardata_validator.radar_cf import radar_cf, odim_acdd_attrs, country_naming_auth
 
 current_filedir = Path(__file__).parent.resolve()
 
@@ -134,6 +134,13 @@ def parse_odim_source(odim: h5py.File, def_msg: dict[str, Any]) -> None:
             def_msg["properties"]["platform_name"] = "[" + nod + "]" + " " + station
         else:
             def_msg["properties"]["platform_name"] = "[" + nod + "]"
+
+        cc = str(nod)[:2].lower()
+        if def_msg["properties"]["naming_authority"] == "eu.eumetnet":
+            if cc.lower() in country_naming_auth:
+                def_msg["properties"]["naming_authority"] = country_naming_auth[cc]
+            else:
+                def_msg["properties"]["naming_authority"] = cc
     else:
         if org == "247":
             def_msg["properties"]["period_int"] = 300
