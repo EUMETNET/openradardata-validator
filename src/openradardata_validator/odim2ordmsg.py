@@ -10,7 +10,7 @@ import h5py
 import numpy
 import pandas as pd
 
-from openradardata_validator.radar_cf import radar_cf
+from openradardata_validator.radar_cf import radar_cf, odim_acdd_attrs
 
 current_filedir = Path(__file__).parent.resolve()
 
@@ -122,6 +122,12 @@ def parse_odim_source(odim: h5py.File, def_msg: dict[str, Any]) -> None:
                 if org == "247":
                     def_msg["properties"]["platform"] = "0-20010-0-" + "OPERA"
                     def_msg["properties"]["platform_name"] = "OPERA"
+
+    if "how" in odim:
+        for attr in odim_acdd_attrs:
+            od_attr = get_attr_str(odim["how"], attr)
+            if od_attr:
+                def_msg["properties"][attr] = od_attr
 
     if nod:
         if station:
@@ -292,7 +298,7 @@ def parse_odim_dataset_data(
             .decode("utf-8")  # pylint: disable=no-member
         )
 
-        current_ingest = f"{dataset_msg["properties"]["datetime"]}_{dataset_msg["properties"]["level"]}_{quantity}"
+        current_ingest = f'{dataset_msg["properties"]["datetime"]}_{dataset_msg["properties"]["level"]}_{quantity}'
         if current_ingest not in ingest_list:
             if quantity in radar_cf:
                 ingest_list.append(current_ingest)

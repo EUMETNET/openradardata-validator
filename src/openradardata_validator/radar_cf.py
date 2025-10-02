@@ -71,3 +71,19 @@ radar_cf = {
     "WRADV": "radar_doppler_spectrum_width_v",
     "ZDR": "radar_differential_reflectivity_hv"
 }
+
+odim_acdd_attrs = [
+    "license",
+    "naming_authority",
+    "institution",
+    "creator_name",
+    "creator_email",
+    "creator_url",
+    "publisher_name",
+    "publisher_email",
+    "publisher_url",
+    "creator_type",
+    "creator_institution",
+    "publisher_type",
+    "publisher_institution"
+]
