@@ -1,0 +1,42 @@
+{
+  "id": "",
+  "version": "v4.0",
+  "type": "Feature",
+  "geometry": "null",
+  "properties": {
+    "start_datetime": "null",
+    "end_datetime": "null",
+    "Conventions": "ACDD-1.3, CF-1.8, H5rad 2.3",
+    "summary": "FMI radar data.",
+    "license": "https://en.ilmatieteenlaitos.fi/open-data-licence (CC BY 4.0)",
+    "naming_authority": "fi.fmi",
+    "creator_type": "institution",
+    "creator_name": "Finnish Meteorological Institute",
+    "creator_email": "info@fmi.fi",
+    "creator_url": "https//www.fmi.fi/en",
+    "institution": "Finnish Meteorological Institute",
+    "level": 600,
+    "hamsl": 0.0,
+    "function": "sum",
+    "platform": "",
+    "platform_name": "",
+    "format": "GeoTiFF",
+    "radar_meta": {},
+    "content": {
+      "encoding": "utf-8",
+      "standard_name": "",
+      "unit": "text",
+      "size": 1,
+      "value": "0"
+    }
+  },
+  "links": [
+    {
+      "href": "https://en.ilmatieteenlaitos.fi/radar-data-on-aws-s3",
+      "rel": "service-desc",
+      "type": "application/geo+json",
+      "hreflang": "en",
+      "title": "FMI Radar Data on AWS"
+    }
+  ]
+}

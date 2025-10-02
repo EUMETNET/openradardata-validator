@@ -1,0 +1,74 @@
+[
+  {
+    "id": "",
+    "version": "v4.0",
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": {
+        "lon": 25.572234604878624,
+        "lat": 63.89583338822597
+      }
+    },
+    "properties": {
+      "start_datetime": "2025-09-08T12:00:00Z",
+      "end_datetime": "2025-09-08T13:00:00Z",
+      "Conventions": "ACDD-1.3, CF-1.8, H5rad 2.3",
+      "summary": "FMI radar data.",
+      "license": "https://en.ilmatieteenlaitos.fi/open-data-licence (CC BY 4.0)",
+      "naming_authority": "fi.fmi",
+      "creator_type": "institution",
+      "creator_name": "Finnish Meteorological Institute",
+      "creator_email": "info@fmi.fi",
+      "creator_url": "https//www.fmi.fi/en",
+      "institution": "Finnish Meteorological Institute",
+      "level": 0,
+      "hamsl": 0.0,
+      "function": "sum",
+      "platform": "0-20010-0-OPERA",
+      "platform_name": "OPERA",
+      "format": "ODIM",
+      "radar_meta": {
+        "format_version": "H5rad 2.0",
+        "object": "COMP",
+        "LL_lat": "57.10303020009094",
+        "LL_lon": "15.278998722256098",
+        "LR_lat": "57.29222340751512",
+        "LR_lon": "36.50878220920495",
+        "UL_lat": "70.42139324353707",
+        "UL_lon": "7.788288460895363",
+        "UR_lat": "70.76668670176073",
+        "UR_lon": "42.71286902715807",
+        "projdef": "+proj=utm +zone=35 +ellps=GRS80 +no_defs",
+        "xsize": 1280,
+        "ysize": 1536,
+        "xscale": 1000.0,
+        "yscale": 1000.0,
+        "product": "COMP"
+      },
+      "content": {
+        "encoding": "utf-8",
+        "standard_name": "ACRR",
+        "unit": "text",
+        "size": 1,
+        "value": "0"
+      }
+    },
+    "links": [
+      {
+        "href": "https://en.ilmatieteenlaitos.fi/radar-data-on-aws-s3",
+        "rel": "service-desc",
+        "type": "application/geo+json",
+        "hreflang": "en",
+        "title": "FMI Radar Data on AWS"
+      },
+      {
+        "href": "https://placeholder.url",
+        "length": 23,
+        "rel": "items",
+        "title": "Link to data",
+        "type": "application/x-odim"
+      }
+    ]
+  }
+]
