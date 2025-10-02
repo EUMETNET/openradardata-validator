@@ -255,9 +255,22 @@ def parse_odim_dataset_what(
     )
     td = et - st
     period_int = int(td.total_seconds())
-    dataset_msg["properties"]["datetime"] = st.isoformat() + "Z"
-    dataset_msg["properties"]["period_int"] = period_int
-    dataset_msg["properties"]["period"] = "PT" + str(period_int) + "S"
+    if "start_datetime" in dataset_msg["properties"] and "end_datetime" in dataset_msg["properties"]:
+        # If start_datetime and end_datetime in schema, use them
+        dataset_msg["properties"]["start_datetime"] = st.isoformat() + "Z"
+        dataset_msg["properties"]["end_datetime"] = et.isoformat() + "Z"
+        # remove period and datetime if present
+        if "period_int" in dataset_msg["properties"]:
+            del dataset_msg["properties"]["period_int"]
+        if "period" in dataset_msg["properties"]:
+            del dataset_msg["properties"]["period"]
+        if "datetime" in dataset_msg["properties"]:
+            del dataset_msg["properties"]["datetime"]
+    else:
+        # Otherwise use datetime and period
+        dataset_msg["properties"]["datetime"] = st.isoformat() + "Z"
+        dataset_msg["properties"]["period_int"] = period_int
+        dataset_msg["properties"]["period"] = "PT" + str(period_int) + "S"
 
     obj = get_attr_str(odim["what"], "object")
     product = get_attr_str(odim[dataset_key + "/what"], "product")
@@ -292,7 +305,13 @@ def parse_odim_dataset_data(
             .decode("utf-8")  # pylint: disable=no-member
         )
 
-        current_ingest = f"{dataset_msg["properties"]["datetime"]}_{dataset_msg["properties"]["level"]}_{quantity}"
+        time_start = (
+            dataset_msg["properties"]["datetime"]
+            if "datetime" in dataset_msg["properties"]
+            else dataset_msg["properties"]["start_datetime"]
+        )
+
+        current_ingest = f"{time_start}_{dataset_msg['properties']['level']}_{quantity}"
         if current_ingest not in ingest_list:
             if quantity in radar_cf:
                 ingest_list.append(current_ingest)
