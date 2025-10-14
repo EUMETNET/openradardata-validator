@@ -108,6 +108,7 @@ def parse_odim_source(odim: h5py.File, def_msg: dict[str, Any]) -> None:
     wmo = find_source_type(source, "WMO")
     nod = find_source_type(source, "NOD")
     org = find_source_type(source, "ORG")
+    cty = find_source_type(source, "CTY")
     station = find_source_type(source, "PLC")
 
     if wigos:
@@ -138,13 +139,19 @@ def parse_odim_source(odim: h5py.File, def_msg: dict[str, Any]) -> None:
         cc = str(nod)[:2].lower()
         if def_msg["properties"]["naming_authority"] == "eu.eumetnet":
             if cc.lower() in country_naming_auth:
-                def_msg["properties"]["naming_authority"] = country_naming_auth[cc]
+                def_msg["properties"]["naming_authority"] = country_naming_auth[cc]["naming_authority"]
             else:
                 def_msg["properties"]["naming_authority"] = cc
     else:
         if org == "247":
             def_msg["properties"]["period_int"] = 300
             def_msg["properties"]["period"] = "PT300S"
+        else:
+            if def_msg["properties"]["naming_authority"] == "eu.eumetnet":
+                for cc, country in country_naming_auth.items():
+                    if int(org) in country["org"] or country["cty"] == int(cty):
+                        def_msg["properties"]["naming_authority"] = country["naming_authority"]
+                        break
 
 
 def parse_odim_object(odim: h5py.File, def_msg: dict[str, Any]) -> None:
