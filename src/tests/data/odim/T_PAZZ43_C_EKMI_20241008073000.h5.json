@@ -15,7 +15,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 0.48,
       "hamsl": 109.0,
       "function": "point",
@@ -41,7 +41,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "DBZH",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -91,7 +91,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 0.48,
       "hamsl": 109.0,
       "function": "point",
@@ -117,7 +117,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "VRAD",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -167,7 +167,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 0.48,
       "hamsl": 109.0,
       "function": "point",
@@ -193,7 +193,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "TH",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -243,7 +243,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 0.48,
       "hamsl": 109.0,
       "function": "point",
@@ -269,7 +269,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "WRAD",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -319,7 +319,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 0.48,
       "hamsl": 109.0,
       "function": "point",
@@ -345,7 +345,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "ZDR",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -395,7 +395,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 0.48,
       "hamsl": 109.0,
       "function": "point",
@@ -421,7 +421,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "RHOHV",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -471,7 +471,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 0.48,
       "hamsl": 109.0,
       "function": "point",
@@ -497,7 +497,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "PHIDP",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -547,7 +547,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 0.48,
       "hamsl": 109.0,
       "function": "point",
@@ -573,7 +573,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "LDR",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -623,7 +623,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 0.65,
       "hamsl": 109.0,
       "function": "point",
@@ -649,7 +649,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "DBZH",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -699,7 +699,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 0.65,
       "hamsl": 109.0,
       "function": "point",
@@ -725,7 +725,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "VRAD",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -775,7 +775,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 0.65,
       "hamsl": 109.0,
       "function": "point",
@@ -801,7 +801,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "TH",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -851,7 +851,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 0.65,
       "hamsl": 109.0,
       "function": "point",
@@ -877,7 +877,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "WRAD",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -927,7 +927,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 0.65,
       "hamsl": 109.0,
       "function": "point",
@@ -953,7 +953,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "ZDR",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -1003,7 +1003,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 0.65,
       "hamsl": 109.0,
       "function": "point",
@@ -1029,7 +1029,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "RHOHV",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -1079,7 +1079,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 0.65,
       "hamsl": 109.0,
       "function": "point",
@@ -1105,7 +1105,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "PHIDP",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -1155,7 +1155,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 0.65,
       "hamsl": 109.0,
       "function": "point",
@@ -1181,7 +1181,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "LDR",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -1231,7 +1231,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 0.96,
       "hamsl": 109.0,
       "function": "point",
@@ -1257,7 +1257,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "DBZH",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -1307,7 +1307,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 0.96,
       "hamsl": 109.0,
       "function": "point",
@@ -1333,7 +1333,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "VRAD",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -1383,7 +1383,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 0.96,
       "hamsl": 109.0,
       "function": "point",
@@ -1409,7 +1409,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "TH",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -1459,7 +1459,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 0.96,
       "hamsl": 109.0,
       "function": "point",
@@ -1485,7 +1485,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "WRAD",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -1535,7 +1535,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 0.96,
       "hamsl": 109.0,
       "function": "point",
@@ -1561,7 +1561,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "ZDR",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -1611,7 +1611,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 0.96,
       "hamsl": 109.0,
       "function": "point",
@@ -1637,7 +1637,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "RHOHV",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -1687,7 +1687,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 0.96,
       "hamsl": 109.0,
       "function": "point",
@@ -1713,7 +1713,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "PHIDP",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -1763,7 +1763,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 0.96,
       "hamsl": 109.0,
       "function": "point",
@@ -1789,7 +1789,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "LDR",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -1839,7 +1839,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 1.47,
       "hamsl": 109.0,
       "function": "point",
@@ -1865,7 +1865,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "DBZH",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -1915,7 +1915,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 1.47,
       "hamsl": 109.0,
       "function": "point",
@@ -1941,7 +1941,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "VRAD",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -1991,7 +1991,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 1.47,
       "hamsl": 109.0,
       "function": "point",
@@ -2017,7 +2017,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "TH",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -2067,7 +2067,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 1.47,
       "hamsl": 109.0,
       "function": "point",
@@ -2093,7 +2093,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "WRAD",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -2143,7 +2143,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 1.47,
       "hamsl": 109.0,
       "function": "point",
@@ -2169,7 +2169,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "ZDR",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -2219,7 +2219,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 1.47,
       "hamsl": 109.0,
       "function": "point",
@@ -2245,7 +2245,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "RHOHV",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -2295,7 +2295,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 1.47,
       "hamsl": 109.0,
       "function": "point",
@@ -2321,7 +2321,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "PHIDP",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -2371,7 +2371,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 1.47,
       "hamsl": 109.0,
       "function": "point",
@@ -2397,7 +2397,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "LDR",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -2447,7 +2447,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 2.37,
       "hamsl": 109.0,
       "function": "point",
@@ -2473,7 +2473,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "DBZH",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -2523,7 +2523,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 2.37,
       "hamsl": 109.0,
       "function": "point",
@@ -2549,7 +2549,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "VRAD",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -2599,7 +2599,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 2.37,
       "hamsl": 109.0,
       "function": "point",
@@ -2625,7 +2625,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "TH",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -2675,7 +2675,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 2.37,
       "hamsl": 109.0,
       "function": "point",
@@ -2701,7 +2701,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "WRAD",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -2751,7 +2751,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 2.37,
       "hamsl": 109.0,
       "function": "point",
@@ -2777,7 +2777,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "ZDR",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -2827,7 +2827,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 2.37,
       "hamsl": 109.0,
       "function": "point",
@@ -2853,7 +2853,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "RHOHV",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -2903,7 +2903,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 2.37,
       "hamsl": 109.0,
       "function": "point",
@@ -2929,7 +2929,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "PHIDP",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -2979,7 +2979,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 2.37,
       "hamsl": 109.0,
       "function": "point",
@@ -3005,7 +3005,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "LDR",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -3055,7 +3055,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 4.81,
       "hamsl": 109.0,
       "function": "point",
@@ -3081,7 +3081,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "DBZH",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -3131,7 +3131,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 4.81,
       "hamsl": 109.0,
       "function": "point",
@@ -3157,7 +3157,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "VRAD",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -3207,7 +3207,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 4.81,
       "hamsl": 109.0,
       "function": "point",
@@ -3233,7 +3233,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "TH",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -3283,7 +3283,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 4.81,
       "hamsl": 109.0,
       "function": "point",
@@ -3309,7 +3309,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "WRAD",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -3359,7 +3359,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 4.81,
       "hamsl": 109.0,
       "function": "point",
@@ -3385,7 +3385,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "ZDR",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -3435,7 +3435,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 4.81,
       "hamsl": 109.0,
       "function": "point",
@@ -3461,7 +3461,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "RHOHV",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -3511,7 +3511,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 4.81,
       "hamsl": 109.0,
       "function": "point",
@@ -3537,7 +3537,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "PHIDP",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -3587,7 +3587,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 4.81,
       "hamsl": 109.0,
       "function": "point",
@@ -3613,7 +3613,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "LDR",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -3663,7 +3663,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 8.39,
       "hamsl": 109.0,
       "function": "point",
@@ -3689,7 +3689,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "DBZH",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -3739,7 +3739,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 8.39,
       "hamsl": 109.0,
       "function": "point",
@@ -3765,7 +3765,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "VRAD",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -3815,7 +3815,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 8.39,
       "hamsl": 109.0,
       "function": "point",
@@ -3841,7 +3841,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "TH",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -3891,7 +3891,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 8.39,
       "hamsl": 109.0,
       "function": "point",
@@ -3917,7 +3917,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "WRAD",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -3967,7 +3967,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 8.39,
       "hamsl": 109.0,
       "function": "point",
@@ -3993,7 +3993,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "ZDR",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -4043,7 +4043,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 8.39,
       "hamsl": 109.0,
       "function": "point",
@@ -4069,7 +4069,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "RHOHV",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -4119,7 +4119,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 8.39,
       "hamsl": 109.0,
       "function": "point",
@@ -4145,7 +4145,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "PHIDP",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -4195,7 +4195,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 8.39,
       "hamsl": 109.0,
       "function": "point",
@@ -4221,7 +4221,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "LDR",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -4271,7 +4271,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 10.0,
       "hamsl": 109.0,
       "function": "point",
@@ -4297,7 +4297,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "DBZH",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -4347,7 +4347,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 10.0,
       "hamsl": 109.0,
       "function": "point",
@@ -4373,7 +4373,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "VRAD",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -4423,7 +4423,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 10.0,
       "hamsl": 109.0,
       "function": "point",
@@ -4449,7 +4449,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "TH",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -4499,7 +4499,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 10.0,
       "hamsl": 109.0,
       "function": "point",
@@ -4525,7 +4525,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "WRAD",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -4575,7 +4575,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 10.0,
       "hamsl": 109.0,
       "function": "point",
@@ -4601,7 +4601,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "ZDR",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -4651,7 +4651,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 10.0,
       "hamsl": 109.0,
       "function": "point",
@@ -4677,7 +4677,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "RHOHV",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -4727,7 +4727,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 10.0,
       "hamsl": 109.0,
       "function": "point",
@@ -4753,7 +4753,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "PHIDP",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -4803,7 +4803,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 10.0,
       "hamsl": 109.0,
       "function": "point",
@@ -4829,7 +4829,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "LDR",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -4879,7 +4879,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 12.96,
       "hamsl": 109.0,
       "function": "point",
@@ -4905,7 +4905,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "DBZH",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -4955,7 +4955,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 12.96,
       "hamsl": 109.0,
       "function": "point",
@@ -4981,7 +4981,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "VRAD",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -5031,7 +5031,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 12.96,
       "hamsl": 109.0,
       "function": "point",
@@ -5057,7 +5057,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "TH",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -5107,7 +5107,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 12.96,
       "hamsl": 109.0,
       "function": "point",
@@ -5133,7 +5133,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "WRAD",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -5183,7 +5183,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 12.96,
       "hamsl": 109.0,
       "function": "point",
@@ -5209,7 +5209,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "ZDR",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -5259,7 +5259,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 12.96,
       "hamsl": 109.0,
       "function": "point",
@@ -5285,7 +5285,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "RHOHV",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -5335,7 +5335,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 12.96,
       "hamsl": 109.0,
       "function": "point",
@@ -5361,7 +5361,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "PHIDP",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -5411,7 +5411,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 12.96,
       "hamsl": 109.0,
       "function": "point",
@@ -5437,7 +5437,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "LDR",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -5487,7 +5487,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 15.01,
       "hamsl": 109.0,
       "function": "point",
@@ -5513,7 +5513,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "DBZH",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -5563,7 +5563,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 15.01,
       "hamsl": 109.0,
       "function": "point",
@@ -5589,7 +5589,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "VRAD",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -5639,7 +5639,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 15.01,
       "hamsl": 109.0,
       "function": "point",
@@ -5665,7 +5665,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "TH",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -5715,7 +5715,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 15.01,
       "hamsl": 109.0,
       "function": "point",
@@ -5741,7 +5741,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "WRAD",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -5791,7 +5791,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 15.01,
       "hamsl": 109.0,
       "function": "point",
@@ -5817,7 +5817,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "ZDR",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -5867,7 +5867,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 15.01,
       "hamsl": 109.0,
       "function": "point",
@@ -5893,7 +5893,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "RHOHV",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -5943,7 +5943,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 15.01,
       "hamsl": 109.0,
       "function": "point",
@@ -5969,7 +5969,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "PHIDP",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -6019,7 +6019,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "dk.dmi",
       "level": 15.01,
       "hamsl": 109.0,
       "function": "point",
@@ -6045,7 +6045,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "LDR",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },

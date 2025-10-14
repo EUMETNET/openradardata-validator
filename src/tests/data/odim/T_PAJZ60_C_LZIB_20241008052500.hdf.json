@@ -15,7 +15,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "sk.shmu",
       "level": 0.0,
       "hamsl": 1425.0,
       "function": "point",
@@ -40,7 +40,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "TH",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -90,7 +90,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "sk.shmu",
       "level": 0.5,
       "hamsl": 1425.0,
       "function": "point",
@@ -115,7 +115,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "TH",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -165,7 +165,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "sk.shmu",
       "level": 1.0,
       "hamsl": 1425.0,
       "function": "point",
@@ -190,7 +190,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "TH",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -240,7 +240,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "sk.shmu",
       "level": 1.5,
       "hamsl": 1425.0,
       "function": "point",
@@ -265,7 +265,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "TH",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -315,7 +315,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "sk.shmu",
       "level": 2.0,
       "hamsl": 1425.0,
       "function": "point",
@@ -340,7 +340,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "TH",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -390,7 +390,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "sk.shmu",
       "level": 2.7,
       "hamsl": 1425.0,
       "function": "point",
@@ -415,7 +415,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "TH",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -465,7 +465,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "sk.shmu",
       "level": 3.4,
       "hamsl": 1425.0,
       "function": "point",
@@ -490,7 +490,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "TH",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -540,7 +540,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "sk.shmu",
       "level": 4.4,
       "hamsl": 1425.0,
       "function": "point",
@@ -565,7 +565,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "TH",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -615,7 +615,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "sk.shmu",
       "level": 7.0,
       "hamsl": 1425.0,
       "function": "point",
@@ -640,7 +640,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "TH",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -690,7 +690,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "sk.shmu",
       "level": 11.4,
       "hamsl": 1425.0,
       "function": "point",
@@ -715,7 +715,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "TH",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -765,7 +765,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "sk.shmu",
       "level": 18.3,
       "hamsl": 1425.0,
       "function": "point",
@@ -790,7 +790,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "TH",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
@@ -840,7 +840,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "sk.shmu",
       "level": 26.7,
       "hamsl": 1425.0,
       "function": "point",
@@ -865,7 +865,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "TH",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },
