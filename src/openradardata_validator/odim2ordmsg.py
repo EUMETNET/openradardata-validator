@@ -155,7 +155,7 @@ def parse_odim_source(odim: h5py.File, def_msg: dict[str, Any]) -> None:
         else:
             if def_msg["properties"]["naming_authority"] == "eu.eumetnet":
                 for cc, country in country_naming_auth.items():
-                    if int(org) in country["org"] or country["cty"] == int(cty):
+                    if int(org) in country["org"] or country["cty"] == int(cty): # type: ignore
                         def_msg["properties"]["naming_authority"] = country[
                             "naming_authority"
                         ]
