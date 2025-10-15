@@ -4,7 +4,7 @@ import json
 import os
 from datetime import datetime
 from pathlib import Path
-from typing import Any
+from typing import Any, Union
 
 import h5py
 import numpy
@@ -76,7 +76,7 @@ def find_source_type(source: str, sid: str) -> str:
     return ret
 
 
-def odim_datetime(odate: bytes, otime: bytes) -> datetime:
+def odim_datetime(odate: Union[bytes, str], otime: Union[bytes, str]) -> datetime:
     if isinstance(odate, bytes):
         odate = odate.decode("utf-8")
     if isinstance(otime, bytes):
