@@ -763,7 +763,6 @@
             },
             "required": [
                 "level",
-                "period",
                 "function",
                 "naming_authority",
                 "Conventions",
