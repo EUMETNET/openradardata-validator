@@ -10,7 +10,11 @@ import h5py
 import numpy
 import pandas as pd
 
-from openradardata_validator.radar_cf import radar_cf, odim_acdd_attrs, country_naming_auth
+from openradardata_validator.radar_cf import (
+    country_naming_auth,
+    odim_acdd_attrs,
+    radar_cf,
+)
 
 current_filedir = Path(__file__).parent.resolve()
 
