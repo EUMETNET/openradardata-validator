@@ -22,6 +22,7 @@ profile = "black"
 
 [tool.pylint.BASIC]
 good-names = "log"
+max-branches=15
 
 [tool.pylint.MASTER]
 disable = [
