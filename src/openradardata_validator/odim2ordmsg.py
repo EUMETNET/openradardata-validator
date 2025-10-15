@@ -143,7 +143,9 @@ def parse_odim_source(odim: h5py.File, def_msg: dict[str, Any]) -> None:
         cc = str(nod)[:2].lower()
         if def_msg["properties"]["naming_authority"] == "eu.eumetnet":
             if cc.lower() in country_naming_auth:
-                def_msg["properties"]["naming_authority"] = country_naming_auth[cc]["naming_authority"]
+                def_msg["properties"]["naming_authority"] = country_naming_auth[cc][
+                    "naming_authority"
+                ]
             else:
                 def_msg["properties"]["naming_authority"] = cc
     else:
@@ -154,7 +156,9 @@ def parse_odim_source(odim: h5py.File, def_msg: dict[str, Any]) -> None:
             if def_msg["properties"]["naming_authority"] == "eu.eumetnet":
                 for cc, country in country_naming_auth.items():
                     if int(org) in country["org"] or country["cty"] == int(cty):
-                        def_msg["properties"]["naming_authority"] = country["naming_authority"]
+                        def_msg["properties"]["naming_authority"] = country[
+                            "naming_authority"
+                        ]
                         break
 
 
@@ -279,7 +283,10 @@ def parse_odim_dataset_what(
     )
     td = et - st
     period_int = int(td.total_seconds())
-    if "start_datetime" in dataset_msg["properties"] and "end_datetime" in dataset_msg["properties"]:
+    if (
+        "start_datetime" in dataset_msg["properties"]
+        and "end_datetime" in dataset_msg["properties"]
+    ):
         # If start_datetime and end_datetime in schema, use them
         dataset_msg["properties"]["start_datetime"] = st.isoformat() + "Z"
         dataset_msg["properties"]["end_datetime"] = et.isoformat() + "Z"
@@ -329,7 +336,6 @@ def parse_odim_dataset_data(
             .decode("utf-8")  # pylint: disable=no-member
         )
 
-
         time_start = (
             dataset_msg["properties"]["datetime"]
             if "datetime" in dataset_msg["properties"]
@@ -359,9 +365,13 @@ def parse_odim_dataset(
     if f"{dataset_key}/what" in odim:
         level = parse_odim_dataset_what(odim, dataset_msg, dataset_key, level)
     elif f"{dataset_key}/data1/what" in odim:
-        level = parse_odim_dataset_what(odim, dataset_msg, dataset_key + "/data1", level)
+        level = parse_odim_dataset_what(
+            odim, dataset_msg, dataset_key + "/data1", level
+        )
     else:
-        raise ValueError(f"ODIM dataset what group missing in {dataset_key} and {dataset_key}/data1")
+        raise ValueError(
+            f"ODIM dataset what group missing in {dataset_key} and {dataset_key}/data1"
+        )
     dataset_msg["properties"]["level"] = level
 
     data_index = 1
