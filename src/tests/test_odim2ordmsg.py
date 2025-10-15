@@ -5,7 +5,6 @@ import pytest
 
 from openradardata_validator.odim2ordmsg import create_json_from_odim
 
-
 current_filedir = Path(__file__).parent.resolve()
 
 
