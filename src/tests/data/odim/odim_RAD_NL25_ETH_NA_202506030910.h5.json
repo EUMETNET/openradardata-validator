@@ -15,7 +15,7 @@
       "Conventions": "CF-1.8",
       "summary": "Radar data from OPERA network.",
       "license": "http//spdx.org/licenses/CC-BY-4.0(CC-BY-4.0)",
-      "naming_authority": "eu.eumetnet",
+      "naming_authority": "nl.knmi",
       "level": 7.0,
       "hamsl": 0.0,
       "function": "point",
@@ -45,7 +45,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "HGHT",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       },

@@ -617,7 +617,7 @@
                     },
                     "if": {"properties": {"object": {"const": "COMP"}}},
                     "then": {"required": ["LL_lat", "LL_lon", "UL_lat", "UL_lon", "UR_lat", "UR_lon", "LR_lat", "LR_lon"]},
-                    "oneOf": [
+                    "anyOf": [
                         {
                         "required": [
                             "object"
@@ -625,7 +625,7 @@
                         },
                         {
                         "required": [
-                            "profuct"
+                            "product"
                         ]
                         }
                     ]
@@ -763,7 +763,6 @@
             },
             "required": [
                 "level",
-                "period",
                 "function",
                 "naming_authority",
                 "Conventions",

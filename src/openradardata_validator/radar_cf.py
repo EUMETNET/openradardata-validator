@@ -1,99 +1,128 @@
-radar_cf = {}
-radar_cf["TH"] = "radar_linear_equivalent_reflectivity_factor_h"
-radar_cf["TV"] = "radar_linear_equivalent_reflectivity_factor_v"
-radar_cf["DBZH"] = "radar_equivalent_reflectivity_factor_h"
-radar_cf["DBZV"] = "radar_equivalent_reflectivity_factor_v"
-# ODIM deprecated
-radar_cf["DBZ"] = "radar_equivalent_reflectivity_factor_h"
+radar_cf = {
+    "ACRR": "ACRR",
+    "ASHR": "ASHR",
+    "BRDR": "BRDR",
+    "CCORH": "CCOR_h",
+    "CCORV": "CCOR_v",
+    "CLASS": "CLASS",
+    "CPA": "CPA",
+    "CSHR": "CSHR",
+    "DBZ": "radar_equivalent_reflectivity_factor_h",
+    "DBZH": "radar_equivalent_reflectivity_factor_h",
+    "DBZV": "radar_equivalent_reflectivity_factor_v",
+    "ESHR": "ESHR",
+    "HGHT": "HGHT",
+    "HI": "HI",
+    "HSHR": "HSHR",
+    "KDP": "radar_specific_differential_phase_hv",
+    "LDR": "radar_linear_depolarization_ratio",
+    "LZDR": "radar_differential_reflectivity_hv",
+    "MESH": "MESH",
+    "OSHR": "OSHR",
+    "PHIDP": "radar_differential_phase_hv",
+    "PIA": "PIA",
+    "POH": "POH",
+    "POR": "POR",
+    "POSH": "POSH",
+    "PSH": "PSH",
+    "PSV": "PSV",
+    "QIND": "QIND",
+    "RATE": "radar_estimated_precipitation_rate",
+    "RHOHV": "radar_correlation_coefficient_hv",
+    "RSHR": "RSHR",
+    "SNR": "radar_signal_to_noise_ratio",
+    "SNRHC": "radar_signal_to_noise_ratio_copolar_h",
+    "SNRHX": "radar_signal_to_noise_ratio_crosspolar_h",
+    "SNRVC": "radar_signal_to_noise_ratio_copolar_v",
+    "SNRVX": "radar_signal_to_noise_ratio_crosspolar_v",
+    "SQI": "SQI",
+    "SQIH": "SQIH",
+    "SQIV": "SQIV",
+    "TH": "radar_linear_equivalent_reflectivity_factor_h",
+    "TSHR": "TSHR",
+    "TV": "radar_linear_equivalent_reflectivity_factor_v",
+    "UKDP": "UKDP",
+    "ULDR": "ULDR",
+    "UPHIDP": "UPHIDP",
+    "UPSPH": "UPSPH",
+    "UPSPV": "UPSPV",
+    "URATE": "URATE",
+    "URHOHV": "URHOHV",
+    "USNRHC": "USNRHC",
+    "USNRVC": "USNRVC",
+    "USQIH": "USQIH",
+    "USQIV": "USQIV",
+    "UVRADH": "UVRADH",
+    "UVRADV": "UVRADV",
+    "UWND": "UWND",
+    "UWRADH": "UWRADH",
+    "UWRADV": "UWRADV",
+    "UZDR": "UZDR",
+    "VIL": "VIL",
+    "VRAD": "radial_velocity_of_scatterers_away_from_instrument_h",
+    "VRADDH": "VRADDH",
+    "VRADDV": "VRADDV",
+    "VRADH": "radial_velocity_of_scatterers_away_from_instrument_h",
+    "VRADV": "radial_velocity_of_scatterers_away_from_instrument_v",
+    "VSHR": "VSHR",
+    "VWND": "VWND",
+    "WRAD": "radar_doppler_spectrum_width_h",
+    "WRADH": "radar_doppler_spectrum_width_h",
+    "WRADV": "radar_doppler_spectrum_width_v",
+    "ZDR": "radar_differential_reflectivity_hv",
+}
 
-radar_cf["ZDR"] = "radar_differential_reflectivity_hv"
-radar_cf["UZDR"] = "UZDR"
-# ODIM deprecated
-radar_cf["LZDR"] = "radar_differential_reflectivity_hv"
+odim_acdd_attrs = [
+    "license",
+    "naming_authority",
+    "institution",
+    "creator_name",
+    "creator_email",
+    "creator_url",
+    "publisher_name",
+    "publisher_email",
+    "publisher_url",
+    "creator_type",
+    "creator_institution",
+    "publisher_type",
+    "publisher_institution",
+]
 
-radar_cf["RHOHV"] = "radar_correlation_coefficient_hv"
-
-radar_cf["URHOHV"] = ""
-
-radar_cf["LDR"] = "radar_linear_depolarization_ratio"
-radar_cf["ULDR"] = "ULDR"
-
-radar_cf["PHIDP"] = "radar_differential_phase_hv"
-radar_cf["UPHIDP"] = "UPHIDP"
-
-radar_cf["PIA"] = "PIA"
-radar_cf["KDP"] = "radar_specific_differential_phase_hv"
-radar_cf["UKDP"] = "UKDP"
-
-radar_cf["SQIH"] = "SQIH"
-radar_cf["USQIH"] = "USQIH"
-radar_cf["SQIV"] = "SQIV"
-radar_cf["USQIV"] = "USQIV"
-# ODIM deprecated
-radar_cf["SQI"] = "SQI"
-
-radar_cf["SNR"] = "radar_signal_to_noise_ratio"
-radar_cf["SNRHC"] = "radar_signal_to_noise_ratio_copolar_h"
-radar_cf["SNRHX"] = "radar_signal_to_noise_ratio_crosspolar_h"
-radar_cf["SNRVC"] = "radar_signal_to_noise_ratio_copolar_v"
-radar_cf["SNRVX"] = "radar_signal_to_noise_ratio_crosspolar_v"
-radar_cf["USNRHC"] = "USNRHC"
-radar_cf["USNRVC"] = "USNRVC"
-
-radar_cf["CCORH"] = "CCOR_h"
-radar_cf["CCORV"] = "CCOR_v"
-
-radar_cf["CPA"] = "CPA"
-
-radar_cf["RATE"] = "radar_estimated_precipitation_rate"
-radar_cf["URATE"] = "URATE"
-
-radar_cf["POR"] = "POR"
-radar_cf["HI"] = "HI"
-radar_cf["POH"] = "POH"
-radar_cf["POSH"] = "POSH"
-
-radar_cf["MESH"] = "MESH"
-
-radar_cf["ACRR"] = "ACRR"
-radar_cf["HGHT"] = "HGHT"
-radar_cf["VIL"] = "VIL"
-
-radar_cf["VRADH"] = "radial_velocity_of_scatterers_away_from_instrument_h"
-radar_cf["UVRADH"] = "UVRADH"
-radar_cf["VRADV"] = "radial_velocity_of_scatterers_away_from_instrument_v"
-radar_cf["UVRADV"] = "UVRADV"
-# ODIM deprecated
-radar_cf["VRAD"] = "radial_velocity_of_scatterers_away_from_instrument_h"
-
-radar_cf["VRADDH"] = "VRADDH"
-radar_cf["VRADDV"] = "VRADDV"
-
-radar_cf["WRADH"] = "radar_doppler_spectrum_width_h"
-radar_cf["UWRADH"] = "UWRADH"
-radar_cf["WRADV"] = "radar_doppler_spectrum_width_v"
-radar_cf["UWRADV"] = "UWRADV"
-# ODIM deprecated
-radar_cf["WRAD"] = "radar_doppler_spectrum_width_h"
-
-radar_cf["UWND"] = "UWND"
-radar_cf["VWND"] = "VWND"
-
-radar_cf["RSHR"] = "RSHR"
-radar_cf["ASHR"] = "ASHR"
-radar_cf["CSHR"] = "CSHR"
-radar_cf["ESHR"] = "ESHR"
-radar_cf["OSHR"] = "OSHR"
-radar_cf["HSHR"] = "HSHR"
-radar_cf["VSHR"] = "VSHR"
-radar_cf["TSHR"] = "TSHR"
-radar_cf["PSH"] = "PSH"
-radar_cf["PSV"] = "PSV"
-
-radar_cf["UPSPH"] = "UPSPH"
-radar_cf["UPSPV"] = "UPSPV"
-
-radar_cf["BRDR"] = "BRDR"
-radar_cf["QIND"] = "QIND"
-
-radar_cf["CLASS"] = "CLASS"
+country_naming_auth = {
+    "at": {"naming_authority": "at.austrocontrol", "org": [224], "cty": 602, "cc": 40},
+    "be": {"naming_authority": "be.meteo", "org": [227], "cty": 605, "cc": 56},
+    "ch": {"naming_authority": "ch.meteoswiss", "org": [215], "cty": 644, "cc": 756},
+    "cy": {"naming_authority": "cy.gov.moa.dom", "org": [230], "cty": 609, "cc": 196},
+    "cz": {"naming_authority": "cz.chmi", "org": [89], "cty": 610, "cc": 203},
+    "de": {"naming_authority": "de.dwd", "org": [78, 79], "cty": 616, "cc": 276},
+    "dk": {"naming_authority": "dk.dmi", "org": [94], "cty": 611, "cc": 208},
+    "ee": {"naming_authority": "ee.envir", "org": [231], "cty": 612, "cc": 233},
+    "es": {"naming_authority": "es.aemet", "org": [214], "cty": 642, "cc": 724},
+    "fi": {"naming_authority": "fi.fmi", "org": [86], "cty": 613, "cc": 246},
+    "fr": {"naming_authority": "fr.meteo", "org": [84, 85], "cty": 614, "cc": 250},
+    "gr": {"naming_authority": "gr.hnms", "org": [96], "cty": 617, "cc": 300},
+    "hr": {"naming_authority": "hr.dhz.cirus", "org": [221], "cty": 608, "cc": 191},
+    "hu": {"naming_authority": "hu.met", "org": [218], "cty": 618, "cc": 348},
+    "ie": {"naming_authority": "ie.met", "org": [233], "cty": 620, "cc": 372},
+    "il": {"naming_authority": "il.gov.ims", "org": [234], "cty": 621, "cc": 376},
+    "is": {"naming_authority": "is.vedur", "org": [213], "cty": 619, "cc": 352},
+    "lt": {"naming_authority": "lt.meteo", "org": [238], "cty": 627, "cc": 440},
+    "lv": {"naming_authority": "lv.lvgmc", "org": [236], "cty": 625, "cc": 428},
+    "md": {"naming_authority": "md.gov.meteo", "org": [246], "cty": 0, "cc": 498},
+    "mt": {"naming_authority": "mt", "org": [240], "cty": 629, "cc": 470},
+    "nl": {"naming_authority": "nl.knmi", "org": [99], "cty": 632, "cc": 528},
+    "no": {"naming_authority": "no.met", "org": [88], "cty": 633, "cc": 578},
+    "pl": {"naming_authority": "pl.imgw", "org": [220], "cty": 634, "cc": 616},
+    "pt": {"naming_authority": "pt.ipma", "org": [212], "cty": 635, "cc": 620},
+    "ro": {"naming_authority": "ro.meteoromania", "org": [242], "cty": 637, "cc": 642},
+    "rs": {"naming_authority": "rs.gov.hidmet", "org": [87], "cty": 639, "cc": 688},
+    "se": {"naming_authority": "se.smhi", "org": [82, 83], "cty": 643, "cc": 752},
+    "si": {"naming_authority": "si.gov", "org": [219], "cty": 641, "cc": 705},
+    "sk": {"naming_authority": "sk.shmu", "org": [217], "cty": 640, "cc": 703},
+    "uk": {
+        "naming_authority": "uk.gov.metoffice",
+        "org": [74, 75],
+        "cty": 649,
+        "cc": 826,
+    },
+}

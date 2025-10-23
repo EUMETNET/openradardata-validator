@@ -10,7 +10,11 @@ import h5py
 import numpy
 import pandas as pd
 
-from openradardata_validator.radar_cf import radar_cf
+from openradardata_validator.radar_cf import (
+    country_naming_auth,
+    odim_acdd_attrs,
+    radar_cf,
+)
 
 current_filedir = Path(__file__).parent.resolve()
 
@@ -72,7 +76,7 @@ def find_source_type(source: str, sid: str) -> str:
     return ret
 
 
-def odim_datetime(odate: bytes, otime: bytes) -> datetime:
+def odim_datetime(odate: bytes | str, otime: bytes | str) -> datetime:
     if isinstance(odate, bytes):
         odate = odate.decode("utf-8")
     if isinstance(otime, bytes):
@@ -108,6 +112,7 @@ def parse_odim_source(odim: h5py.File, def_msg: dict[str, Any]) -> None:
     wmo = find_source_type(source, "WMO")
     nod = find_source_type(source, "NOD")
     org = find_source_type(source, "ORG")
+    cty = find_source_type(source, "CTY")
     station = find_source_type(source, "PLC")
 
     if wigos:
@@ -123,15 +128,38 @@ def parse_odim_source(odim: h5py.File, def_msg: dict[str, Any]) -> None:
                     def_msg["properties"]["platform"] = "0-20010-0-" + "OPERA"
                     def_msg["properties"]["platform_name"] = "OPERA"
 
+    if "how" in odim:
+        for attr in odim_acdd_attrs:
+            od_attr = get_attr_str(odim["how"], attr)
+            if od_attr:
+                def_msg["properties"][attr] = od_attr
+
     if nod:
         if station:
             def_msg["properties"]["platform_name"] = "[" + nod + "]" + " " + station
         else:
             def_msg["properties"]["platform_name"] = "[" + nod + "]"
+
+        cc = str(nod)[:2].lower()
+        if def_msg["properties"]["naming_authority"] == "eu.eumetnet":
+            if cc.lower() in country_naming_auth:
+                def_msg["properties"]["naming_authority"] = country_naming_auth[cc][
+                    "naming_authority"
+                ]
+            else:
+                def_msg["properties"]["naming_authority"] = cc
     else:
         if org == "247":
             def_msg["properties"]["period_int"] = 300
             def_msg["properties"]["period"] = "PT300S"
+        else:
+            if def_msg["properties"]["naming_authority"] == "eu.eumetnet":
+                for cc, country in country_naming_auth.items():
+                    if int(org) in country["org"] or country["cty"] == int(cty):  # type: ignore
+                        def_msg["properties"]["naming_authority"] = country[
+                            "naming_authority"
+                        ]
+                        break
 
 
 def parse_odim_object(odim: h5py.File, def_msg: dict[str, Any]) -> None:
@@ -255,7 +283,10 @@ def parse_odim_dataset_what(
     )
     td = et - st
     period_int = int(td.total_seconds())
-    if "start_datetime" in dataset_msg["properties"] and "end_datetime" in dataset_msg["properties"]:
+    if (
+        "start_datetime" in dataset_msg["properties"]
+        and "end_datetime" in dataset_msg["properties"]
+    ):
         # If start_datetime and end_datetime in schema, use them
         dataset_msg["properties"]["start_datetime"] = st.isoformat() + "Z"
         dataset_msg["properties"]["end_datetime"] = et.isoformat() + "Z"
@@ -334,9 +365,13 @@ def parse_odim_dataset(
     if f"{dataset_key}/what" in odim:
         level = parse_odim_dataset_what(odim, dataset_msg, dataset_key, level)
     elif f"{dataset_key}/data1/what" in odim:
-        level = parse_odim_dataset_what(odim, dataset_msg, dataset_key + "/data1", level)
+        level = parse_odim_dataset_what(
+            odim, dataset_msg, dataset_key + "/data1", level
+        )
     else:
-        raise ValueError(f"ODIM dataset what group missing in {dataset_key} and {dataset_key}/data1")
+        raise ValueError(
+            f"ODIM dataset what group missing in {dataset_key} and {dataset_key}/data1"
+        )
     dataset_msg["properties"]["level"] = level
 
     data_index = 1
