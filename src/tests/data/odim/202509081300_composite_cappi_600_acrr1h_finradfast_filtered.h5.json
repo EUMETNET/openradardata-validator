@@ -49,7 +49,7 @@
       "content": {
         "encoding": "utf-8",
         "standard_name": "ACRR",
-        "unit": "text",
+        "unit": "%",
         "size": 1,
         "value": "0"
       }
