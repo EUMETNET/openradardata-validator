@@ -4,7 +4,7 @@ import json
 import os
 from datetime import datetime
 from pathlib import Path
-from typing import Any, Union
+from typing import Any
 
 import h5py
 import numpy
