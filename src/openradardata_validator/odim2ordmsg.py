@@ -76,7 +76,7 @@ def find_source_type(source: str, sid: str) -> str:
     return ret
 
 
-def odim_datetime(odate: Union[bytes, str], otime: Union[bytes, str]) -> datetime:
+def odim_datetime(odate: bytes | str, otime: bytes | str) -> datetime:
     if isinstance(odate, bytes):
         odate = odate.decode("utf-8")
     if isinstance(otime, bytes):
