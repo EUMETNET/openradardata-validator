@@ -170,6 +170,7 @@ def parse_odim_object(odim: h5py.File, def_msg: dict[str, Any]) -> None:
     def_msg["properties"]["radar_meta"]["object"] = str(obj)
 
     if obj == "COMP":
+        def_msg["properties"]["function"] = "comp"
         def_msg["geometry"] = {}
         # def_msg["geometry"]["type"] = "Polygon"
         def_msg["geometry"]["type"] = "Point"
@@ -204,6 +205,7 @@ def parse_odim_object(odim: h5py.File, def_msg: dict[str, Any]) -> None:
         )
     else:
         if obj in ["PVOL", "SCAN"]:
+            def_msg["properties"]["function"] = "scan"
             def_msg["properties"]["period_int"] = 300
             def_msg["properties"]["period"] = "PT300S"
             def_msg["geometry"] = {}

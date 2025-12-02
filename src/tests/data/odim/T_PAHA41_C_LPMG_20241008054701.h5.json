@@ -18,7 +18,7 @@
       "naming_authority": "pt.ipma",
       "level": 0.0,
       "hamsl": 193.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT25S",
       "platform": "0-20000-0-08550",
       "platform_name": "[ptlis] Lisboa",

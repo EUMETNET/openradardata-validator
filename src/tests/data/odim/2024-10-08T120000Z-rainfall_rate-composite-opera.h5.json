@@ -18,7 +18,7 @@
       "naming_authority": "eu.eumetnet",
       "level": 0,
       "hamsl": 0.0,
-      "function": "point",
+      "function": "comp",
       "period": "PT0S",
       "platform": "0-20010-0-OPERA",
       "platform_name": "OPERA",

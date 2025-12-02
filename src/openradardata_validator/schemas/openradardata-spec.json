@@ -113,7 +113,7 @@
                 },
                 "function": {
                     "type": "string",
-                    "description": "Function used on the data during the aggregation period. Must be one of the functions given in CF cell_methods table. https://cfconventions.org/Data/cf-conventions/cf-conventions-1.7/build/ape.html"
+                    "description": "Single site SCAN or PVOL: 'scan', composite product: 'comp'. Allowed also one of CF cell_methods table. https://cfconventions.org/Data/cf-conventions/cf-conventions-1.7/build/ape.html"
                 },
                 "license": {
                     "type": "string",
