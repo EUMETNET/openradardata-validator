@@ -18,9 +18,9 @@
       "naming_authority": "dk.dmi",
       "level": 0.48,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -44,8 +44,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -68,7 +67,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -94,9 +93,9 @@
       "naming_authority": "dk.dmi",
       "level": 0.48,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -120,8 +119,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -144,7 +142,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -170,9 +168,9 @@
       "naming_authority": "dk.dmi",
       "level": 0.48,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -196,8 +194,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -220,7 +217,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -246,9 +243,9 @@
       "naming_authority": "dk.dmi",
       "level": 0.48,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -272,8 +269,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -296,7 +292,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -322,9 +318,9 @@
       "naming_authority": "dk.dmi",
       "level": 0.48,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -348,8 +344,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -372,7 +367,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -398,9 +393,9 @@
       "naming_authority": "dk.dmi",
       "level": 0.48,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -424,8 +419,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -448,7 +442,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -474,9 +468,9 @@
       "naming_authority": "dk.dmi",
       "level": 0.48,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -500,8 +494,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -524,7 +517,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -550,9 +543,9 @@
       "naming_authority": "dk.dmi",
       "level": 0.48,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -576,8 +569,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -600,7 +592,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -626,9 +618,9 @@
       "naming_authority": "dk.dmi",
       "level": 0.65,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -652,8 +644,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -676,7 +667,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -702,9 +693,9 @@
       "naming_authority": "dk.dmi",
       "level": 0.65,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -728,8 +719,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -752,7 +742,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -778,9 +768,9 @@
       "naming_authority": "dk.dmi",
       "level": 0.65,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -804,8 +794,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -828,7 +817,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -854,9 +843,9 @@
       "naming_authority": "dk.dmi",
       "level": 0.65,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -880,8 +869,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -904,7 +892,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -930,9 +918,9 @@
       "naming_authority": "dk.dmi",
       "level": 0.65,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -956,8 +944,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -980,7 +967,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -1006,9 +993,9 @@
       "naming_authority": "dk.dmi",
       "level": 0.65,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -1032,8 +1019,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -1056,7 +1042,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -1082,9 +1068,9 @@
       "naming_authority": "dk.dmi",
       "level": 0.65,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -1108,8 +1094,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -1132,7 +1117,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -1158,9 +1143,9 @@
       "naming_authority": "dk.dmi",
       "level": 0.65,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -1184,8 +1169,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -1208,7 +1192,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -1234,9 +1218,9 @@
       "naming_authority": "dk.dmi",
       "level": 0.96,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -1260,8 +1244,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -1284,7 +1267,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -1310,9 +1293,9 @@
       "naming_authority": "dk.dmi",
       "level": 0.96,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -1336,8 +1319,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -1360,7 +1342,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -1386,9 +1368,9 @@
       "naming_authority": "dk.dmi",
       "level": 0.96,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -1412,8 +1394,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -1436,7 +1417,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -1462,9 +1443,9 @@
       "naming_authority": "dk.dmi",
       "level": 0.96,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -1488,8 +1469,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -1512,7 +1492,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -1538,9 +1518,9 @@
       "naming_authority": "dk.dmi",
       "level": 0.96,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -1564,8 +1544,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -1588,7 +1567,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -1614,9 +1593,9 @@
       "naming_authority": "dk.dmi",
       "level": 0.96,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -1640,8 +1619,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -1664,7 +1642,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -1690,9 +1668,9 @@
       "naming_authority": "dk.dmi",
       "level": 0.96,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -1716,8 +1694,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -1740,7 +1717,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -1766,9 +1743,9 @@
       "naming_authority": "dk.dmi",
       "level": 0.96,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -1792,8 +1769,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -1816,7 +1792,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -1842,9 +1818,9 @@
       "naming_authority": "dk.dmi",
       "level": 1.47,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -1868,8 +1844,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -1892,7 +1867,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -1918,9 +1893,9 @@
       "naming_authority": "dk.dmi",
       "level": 1.47,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -1944,8 +1919,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -1968,7 +1942,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -1994,9 +1968,9 @@
       "naming_authority": "dk.dmi",
       "level": 1.47,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -2020,8 +1994,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -2044,7 +2017,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -2070,9 +2043,9 @@
       "naming_authority": "dk.dmi",
       "level": 1.47,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -2096,8 +2069,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -2120,7 +2092,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -2146,9 +2118,9 @@
       "naming_authority": "dk.dmi",
       "level": 1.47,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -2172,8 +2144,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -2196,7 +2167,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -2222,9 +2193,9 @@
       "naming_authority": "dk.dmi",
       "level": 1.47,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -2248,8 +2219,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -2272,7 +2242,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -2298,9 +2268,9 @@
       "naming_authority": "dk.dmi",
       "level": 1.47,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -2324,8 +2294,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -2348,7 +2317,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -2374,9 +2343,9 @@
       "naming_authority": "dk.dmi",
       "level": 1.47,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -2400,8 +2369,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -2424,7 +2392,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -2450,9 +2418,9 @@
       "naming_authority": "dk.dmi",
       "level": 2.37,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -2476,8 +2444,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -2500,7 +2467,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -2526,9 +2493,9 @@
       "naming_authority": "dk.dmi",
       "level": 2.37,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -2552,8 +2519,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -2576,7 +2542,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -2602,9 +2568,9 @@
       "naming_authority": "dk.dmi",
       "level": 2.37,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -2628,8 +2594,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -2652,7 +2617,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -2678,9 +2643,9 @@
       "naming_authority": "dk.dmi",
       "level": 2.37,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -2704,8 +2669,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -2728,7 +2692,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -2754,9 +2718,9 @@
       "naming_authority": "dk.dmi",
       "level": 2.37,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -2780,8 +2744,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -2804,7 +2767,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -2830,9 +2793,9 @@
       "naming_authority": "dk.dmi",
       "level": 2.37,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -2856,8 +2819,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -2880,7 +2842,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -2906,9 +2868,9 @@
       "naming_authority": "dk.dmi",
       "level": 2.37,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -2932,8 +2894,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -2956,7 +2917,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -2982,9 +2943,9 @@
       "naming_authority": "dk.dmi",
       "level": 2.37,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -3008,8 +2969,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -3032,7 +2992,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -3058,9 +3018,9 @@
       "naming_authority": "dk.dmi",
       "level": 4.81,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -3084,8 +3044,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -3108,7 +3067,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -3134,9 +3093,9 @@
       "naming_authority": "dk.dmi",
       "level": 4.81,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -3160,8 +3119,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -3184,7 +3142,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -3210,9 +3168,9 @@
       "naming_authority": "dk.dmi",
       "level": 4.81,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -3236,8 +3194,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -3260,7 +3217,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -3286,9 +3243,9 @@
       "naming_authority": "dk.dmi",
       "level": 4.81,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -3312,8 +3269,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -3336,7 +3292,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -3362,9 +3318,9 @@
       "naming_authority": "dk.dmi",
       "level": 4.81,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -3388,8 +3344,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -3412,7 +3367,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -3438,9 +3393,9 @@
       "naming_authority": "dk.dmi",
       "level": 4.81,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -3464,8 +3419,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -3488,7 +3442,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -3514,9 +3468,9 @@
       "naming_authority": "dk.dmi",
       "level": 4.81,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -3540,8 +3494,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -3564,7 +3517,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -3590,9 +3543,9 @@
       "naming_authority": "dk.dmi",
       "level": 4.81,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -3616,8 +3569,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -3640,7 +3592,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -3666,9 +3618,9 @@
       "naming_authority": "dk.dmi",
       "level": 8.39,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -3692,8 +3644,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -3716,7 +3667,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -3742,9 +3693,9 @@
       "naming_authority": "dk.dmi",
       "level": 8.39,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -3768,8 +3719,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -3792,7 +3742,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -3818,9 +3768,9 @@
       "naming_authority": "dk.dmi",
       "level": 8.39,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -3844,8 +3794,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -3868,7 +3817,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -3894,9 +3843,9 @@
       "naming_authority": "dk.dmi",
       "level": 8.39,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -3920,8 +3869,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -3944,7 +3892,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -3970,9 +3918,9 @@
       "naming_authority": "dk.dmi",
       "level": 8.39,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -3996,8 +3944,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -4020,7 +3967,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -4046,9 +3993,9 @@
       "naming_authority": "dk.dmi",
       "level": 8.39,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -4072,8 +4019,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -4096,7 +4042,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -4122,9 +4068,9 @@
       "naming_authority": "dk.dmi",
       "level": 8.39,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -4148,8 +4094,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -4172,7 +4117,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -4198,9 +4143,9 @@
       "naming_authority": "dk.dmi",
       "level": 8.39,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -4224,8 +4169,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -4248,7 +4192,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -4274,9 +4218,9 @@
       "naming_authority": "dk.dmi",
       "level": 10.0,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -4300,8 +4244,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -4324,7 +4267,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -4350,9 +4293,9 @@
       "naming_authority": "dk.dmi",
       "level": 10.0,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -4376,8 +4319,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -4400,7 +4342,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -4426,9 +4368,9 @@
       "naming_authority": "dk.dmi",
       "level": 10.0,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -4452,8 +4394,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -4476,7 +4417,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -4502,9 +4443,9 @@
       "naming_authority": "dk.dmi",
       "level": 10.0,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -4528,8 +4469,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -4552,7 +4492,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -4578,9 +4518,9 @@
       "naming_authority": "dk.dmi",
       "level": 10.0,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -4604,8 +4544,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -4628,7 +4567,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -4654,9 +4593,9 @@
       "naming_authority": "dk.dmi",
       "level": 10.0,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -4680,8 +4619,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -4704,7 +4642,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -4730,9 +4668,9 @@
       "naming_authority": "dk.dmi",
       "level": 10.0,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -4756,8 +4694,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -4780,7 +4717,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -4806,9 +4743,9 @@
       "naming_authority": "dk.dmi",
       "level": 10.0,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -4832,8 +4769,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -4856,7 +4792,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -4882,9 +4818,9 @@
       "naming_authority": "dk.dmi",
       "level": 12.96,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -4908,8 +4844,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -4932,7 +4867,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -4958,9 +4893,9 @@
       "naming_authority": "dk.dmi",
       "level": 12.96,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -4984,8 +4919,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -5008,7 +4942,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -5034,9 +4968,9 @@
       "naming_authority": "dk.dmi",
       "level": 12.96,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -5060,8 +4994,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -5084,7 +5017,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -5110,9 +5043,9 @@
       "naming_authority": "dk.dmi",
       "level": 12.96,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -5136,8 +5069,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -5160,7 +5092,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -5186,9 +5118,9 @@
       "naming_authority": "dk.dmi",
       "level": 12.96,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -5212,8 +5144,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -5236,7 +5167,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -5262,9 +5193,9 @@
       "naming_authority": "dk.dmi",
       "level": 12.96,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -5288,8 +5219,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -5312,7 +5242,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -5338,9 +5268,9 @@
       "naming_authority": "dk.dmi",
       "level": 12.96,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -5364,8 +5294,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -5388,7 +5317,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -5414,9 +5343,9 @@
       "naming_authority": "dk.dmi",
       "level": 12.96,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -5440,8 +5369,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -5464,7 +5392,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -5490,9 +5418,9 @@
       "naming_authority": "dk.dmi",
       "level": 15.01,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -5516,8 +5444,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -5540,7 +5467,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -5566,9 +5493,9 @@
       "naming_authority": "dk.dmi",
       "level": 15.01,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -5592,8 +5519,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -5616,7 +5542,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -5642,9 +5568,9 @@
       "naming_authority": "dk.dmi",
       "level": 15.01,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -5668,8 +5594,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -5692,7 +5617,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -5718,9 +5643,9 @@
       "naming_authority": "dk.dmi",
       "level": 15.01,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -5744,8 +5669,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -5768,7 +5692,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -5794,9 +5718,9 @@
       "naming_authority": "dk.dmi",
       "level": 15.01,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -5820,8 +5744,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -5844,7 +5767,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -5870,9 +5793,9 @@
       "naming_authority": "dk.dmi",
       "level": 15.01,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -5896,8 +5819,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -5920,7 +5842,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -5946,9 +5868,9 @@
       "naming_authority": "dk.dmi",
       "level": 15.01,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -5972,8 +5894,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -5996,7 +5917,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -6022,9 +5943,9 @@
       "naming_authority": "dk.dmi",
       "level": 15.01,
       "hamsl": 109.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT0S",
-      "platform": "0-20000-0-06036",
+      "platform": "0-208-0-dksin",
       "platform_name": "[dksin] Sindal",
       "format": "ODIM",
       "radar_meta": {
@@ -6048,8 +5969,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 0
+      }
     },
     "links": [
       {
@@ -6072,7 +5992,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2055784,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"

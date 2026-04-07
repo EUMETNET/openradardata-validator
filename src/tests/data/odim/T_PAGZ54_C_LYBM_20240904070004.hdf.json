@@ -18,9 +18,9 @@
       "naming_authority": "rs.gov.hidmet",
       "level": 0.5,
       "hamsl": 1522.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT15S",
-      "platform": "0-0-0-rsjas",
+      "platform": "0-688-0-rsjas",
       "platform_name": "[rsjas]",
       "format": "ODIM",
       "radar_meta": {
@@ -43,8 +43,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 15
+      }
     },
     "links": [
       {
@@ -67,7 +66,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 419624,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -93,9 +92,9 @@
       "naming_authority": "rs.gov.hidmet",
       "level": 1.3,
       "hamsl": 1522.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT15S",
-      "platform": "0-0-0-rsjas",
+      "platform": "0-688-0-rsjas",
       "platform_name": "[rsjas]",
       "format": "ODIM",
       "radar_meta": {
@@ -118,8 +117,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 15
+      }
     },
     "links": [
       {
@@ -142,7 +140,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 419624,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -168,9 +166,9 @@
       "naming_authority": "rs.gov.hidmet",
       "level": 2.3,
       "hamsl": 1522.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT15S",
-      "platform": "0-0-0-rsjas",
+      "platform": "0-688-0-rsjas",
       "platform_name": "[rsjas]",
       "format": "ODIM",
       "radar_meta": {
@@ -193,8 +191,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 15
+      }
     },
     "links": [
       {
@@ -217,7 +214,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 419624,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -243,9 +240,9 @@
       "naming_authority": "rs.gov.hidmet",
       "level": 3.5,
       "hamsl": 1522.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT15S",
-      "platform": "0-0-0-rsjas",
+      "platform": "0-688-0-rsjas",
       "platform_name": "[rsjas]",
       "format": "ODIM",
       "radar_meta": {
@@ -268,8 +265,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 15
+      }
     },
     "links": [
       {
@@ -292,7 +288,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 419624,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -318,9 +314,9 @@
       "naming_authority": "rs.gov.hidmet",
       "level": 4.9,
       "hamsl": 1522.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT14S",
-      "platform": "0-0-0-rsjas",
+      "platform": "0-688-0-rsjas",
       "platform_name": "[rsjas]",
       "format": "ODIM",
       "radar_meta": {
@@ -343,8 +339,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 14
+      }
     },
     "links": [
       {
@@ -367,7 +362,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 419624,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -393,9 +388,9 @@
       "naming_authority": "rs.gov.hidmet",
       "level": 6.6,
       "hamsl": 1522.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT15S",
-      "platform": "0-0-0-rsjas",
+      "platform": "0-688-0-rsjas",
       "platform_name": "[rsjas]",
       "format": "ODIM",
       "radar_meta": {
@@ -418,8 +413,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 15
+      }
     },
     "links": [
       {
@@ -442,7 +436,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 419624,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -468,9 +462,9 @@
       "naming_authority": "rs.gov.hidmet",
       "level": 8.5,
       "hamsl": 1522.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT15S",
-      "platform": "0-0-0-rsjas",
+      "platform": "0-688-0-rsjas",
       "platform_name": "[rsjas]",
       "format": "ODIM",
       "radar_meta": {
@@ -493,8 +487,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 15
+      }
     },
     "links": [
       {
@@ -517,7 +510,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 419624,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -543,9 +536,9 @@
       "naming_authority": "rs.gov.hidmet",
       "level": 10.8,
       "hamsl": 1522.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT15S",
-      "platform": "0-0-0-rsjas",
+      "platform": "0-688-0-rsjas",
       "platform_name": "[rsjas]",
       "format": "ODIM",
       "radar_meta": {
@@ -568,8 +561,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 15
+      }
     },
     "links": [
       {
@@ -592,7 +584,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 419624,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -618,9 +610,9 @@
       "naming_authority": "rs.gov.hidmet",
       "level": 13.5,
       "hamsl": 1522.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT15S",
-      "platform": "0-0-0-rsjas",
+      "platform": "0-688-0-rsjas",
       "platform_name": "[rsjas]",
       "format": "ODIM",
       "radar_meta": {
@@ -643,8 +635,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 15
+      }
     },
     "links": [
       {
@@ -667,7 +658,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 419624,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -693,9 +684,9 @@
       "naming_authority": "rs.gov.hidmet",
       "level": 16.7,
       "hamsl": 1522.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT15S",
-      "platform": "0-0-0-rsjas",
+      "platform": "0-688-0-rsjas",
       "platform_name": "[rsjas]",
       "format": "ODIM",
       "radar_meta": {
@@ -718,8 +709,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 15
+      }
     },
     "links": [
       {
@@ -742,7 +732,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 419624,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -768,9 +758,9 @@
       "naming_authority": "rs.gov.hidmet",
       "level": 20.5,
       "hamsl": 1522.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT15S",
-      "platform": "0-0-0-rsjas",
+      "platform": "0-688-0-rsjas",
       "platform_name": "[rsjas]",
       "format": "ODIM",
       "radar_meta": {
@@ -793,8 +783,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 15
+      }
     },
     "links": [
       {
@@ -817,7 +806,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 419624,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -843,9 +832,9 @@
       "naming_authority": "rs.gov.hidmet",
       "level": 25.0,
       "hamsl": 1522.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT15S",
-      "platform": "0-0-0-rsjas",
+      "platform": "0-688-0-rsjas",
       "platform_name": "[rsjas]",
       "format": "ODIM",
       "radar_meta": {
@@ -868,8 +857,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 15
+      }
     },
     "links": [
       {
@@ -892,7 +880,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 419624,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"

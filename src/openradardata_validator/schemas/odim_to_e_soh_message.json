@@ -11,7 +11,7 @@
         "naming_authority": "eu.eumetnet",
         "level": 0,
         "hamsl": 0.0,
-        "function": "point",
+        "function": "scan",
         "period": "PT0S",
         "platform": "",
         "platform_name": "",

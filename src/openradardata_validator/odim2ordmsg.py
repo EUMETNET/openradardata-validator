@@ -21,8 +21,8 @@ current_filedir = Path(__file__).parent.resolve()
 schema_dir = current_filedir / "schemas"
 radardb_dir = current_filedir / "stations"
 
-DEFAULT_WIGOS = "0-0-0-"
-DEFAULT_WMO = "0-20000-0-"
+default_wigos = ["0", "20010", "0", ""]
+default_wmo = ["0", "20000", "0", ""]
 test_schema_path = schema_dir / "odim_to_e_soh_message.json"
 
 # radars_format = {"WMO Code": "Int32" }
@@ -94,7 +94,7 @@ def set_meta(
 ) -> None:
     for meta in m_attrs:
         meta_val = get_attr_str(m_src, meta)
-        if meta_val is not None and len(meta_val):
+        if meta_val:
             match fmt:
                 case "str":
                     m_dest[meta] = str(meta_val)
@@ -115,14 +115,22 @@ def parse_odim_source(odim: h5py.File, def_msg: dict[str, Any]) -> None:
     cty = find_source_type(source, "CTY")
     station = find_source_type(source, "PLC")
 
-    if wigos:
-        def_msg["properties"]["platform"] = wigos
-    else:
-        if wmo:
-            def_msg["properties"]["platform"] = DEFAULT_WMO + wmo.zfill(5)
+    if nod:
+        # ISO country code
+        cc = str(nod)[:2].lower()
+        default_wigos[1] = str(country_naming_auth[cc]["cc"])
+        def_msg["properties"]["platform"] = "-".join(default_wigos) + nod
+
+        if station:
+            def_msg["properties"]["platform_name"] = "[" + nod + "]" + " " + station
         else:
-            if nod:
-                def_msg["properties"]["platform"] = DEFAULT_WIGOS + nod
+            def_msg["properties"]["platform_name"] = "[" + nod + "]"
+    else:
+        if wigos:
+            def_msg["properties"]["platform"] = wigos
+        else:
+            if wmo:
+                def_msg["properties"]["platform"] = "-".join(default_wmo) + wmo.zfill(5)
             else:
                 if org == "247":
                     def_msg["properties"]["platform"] = "0-20010-0-" + "OPERA"
@@ -150,7 +158,6 @@ def parse_odim_source(odim: h5py.File, def_msg: dict[str, Any]) -> None:
                 def_msg["properties"]["naming_authority"] = cc
     else:
         if org == "247":
-            def_msg["properties"]["period_int"] = 300
             def_msg["properties"]["period"] = "PT300S"
         else:
             if def_msg["properties"]["naming_authority"] == "eu.eumetnet":
@@ -170,6 +177,7 @@ def parse_odim_object(odim: h5py.File, def_msg: dict[str, Any]) -> None:
     def_msg["properties"]["radar_meta"]["object"] = str(obj)
 
     if obj == "COMP":
+        def_msg["properties"]["function"] = "comp"
         def_msg["geometry"] = {}
         # def_msg["geometry"]["type"] = "Polygon"
         def_msg["geometry"]["type"] = "Point"
@@ -204,7 +212,7 @@ def parse_odim_object(odim: h5py.File, def_msg: dict[str, Any]) -> None:
         )
     else:
         if obj in ["PVOL", "SCAN"]:
-            def_msg["properties"]["period_int"] = 300
+            def_msg["properties"]["function"] = "scan"
             def_msg["properties"]["period"] = "PT300S"
             def_msg["geometry"] = {}
             def_msg["geometry"]["type"] = "Point"
@@ -291,8 +299,6 @@ def parse_odim_dataset_what(
         dataset_msg["properties"]["start_datetime"] = st.isoformat() + "Z"
         dataset_msg["properties"]["end_datetime"] = et.isoformat() + "Z"
         # remove period and datetime if present
-        if "period_int" in dataset_msg["properties"]:
-            del dataset_msg["properties"]["period_int"]
         if "period" in dataset_msg["properties"]:
             del dataset_msg["properties"]["period"]
         if "datetime" in dataset_msg["properties"]:
@@ -300,7 +306,6 @@ def parse_odim_dataset_what(
     else:
         # Otherwise use datetime and period
         dataset_msg["properties"]["datetime"] = st.isoformat() + "Z"
-        dataset_msg["properties"]["period_int"] = period_int
         dataset_msg["properties"]["period"] = "PT" + str(period_int) + "S"
 
     obj = get_attr_str(odim["what"], "object")
@@ -418,7 +423,7 @@ def odim_openradar_msgmem(
     for msg in ret:
         data_link = default_data_link
         data_link["href"] = data_link_href
-        data_link["length"] = len(data_link_href)
+        data_link["length"] = len(odim_content)
         msg["links"].append(data_link)
 
     return ret

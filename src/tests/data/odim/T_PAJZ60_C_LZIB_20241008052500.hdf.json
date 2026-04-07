@@ -18,9 +18,9 @@
       "naming_authority": "sk.shmu",
       "level": 0.0,
       "hamsl": 1425.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT20S",
-      "platform": "0-20000-0-11887",
+      "platform": "0-703-0-skkub",
       "platform_name": "[skkub]",
       "format": "ODIM",
       "radar_meta": {
@@ -43,8 +43,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 20
+      }
     },
     "links": [
       {
@@ -67,7 +66,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 779028,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -93,9 +92,9 @@
       "naming_authority": "sk.shmu",
       "level": 0.5,
       "hamsl": 1425.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT19S",
-      "platform": "0-20000-0-11887",
+      "platform": "0-703-0-skkub",
       "platform_name": "[skkub]",
       "format": "ODIM",
       "radar_meta": {
@@ -118,8 +117,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 19
+      }
     },
     "links": [
       {
@@ -142,7 +140,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 779028,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -168,9 +166,9 @@
       "naming_authority": "sk.shmu",
       "level": 1.0,
       "hamsl": 1425.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT20S",
-      "platform": "0-20000-0-11887",
+      "platform": "0-703-0-skkub",
       "platform_name": "[skkub]",
       "format": "ODIM",
       "radar_meta": {
@@ -193,8 +191,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 20
+      }
     },
     "links": [
       {
@@ -217,7 +214,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 779028,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -243,9 +240,9 @@
       "naming_authority": "sk.shmu",
       "level": 1.5,
       "hamsl": 1425.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT19S",
-      "platform": "0-20000-0-11887",
+      "platform": "0-703-0-skkub",
       "platform_name": "[skkub]",
       "format": "ODIM",
       "radar_meta": {
@@ -268,8 +265,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 19
+      }
     },
     "links": [
       {
@@ -292,7 +288,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 779028,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -318,9 +314,9 @@
       "naming_authority": "sk.shmu",
       "level": 2.0,
       "hamsl": 1425.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT20S",
-      "platform": "0-20000-0-11887",
+      "platform": "0-703-0-skkub",
       "platform_name": "[skkub]",
       "format": "ODIM",
       "radar_meta": {
@@ -343,8 +339,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 20
+      }
     },
     "links": [
       {
@@ -367,7 +362,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 779028,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -393,9 +388,9 @@
       "naming_authority": "sk.shmu",
       "level": 2.7,
       "hamsl": 1425.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT20S",
-      "platform": "0-20000-0-11887",
+      "platform": "0-703-0-skkub",
       "platform_name": "[skkub]",
       "format": "ODIM",
       "radar_meta": {
@@ -418,8 +413,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 20
+      }
     },
     "links": [
       {
@@ -442,7 +436,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 779028,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -468,9 +462,9 @@
       "naming_authority": "sk.shmu",
       "level": 3.4,
       "hamsl": 1425.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT20S",
-      "platform": "0-20000-0-11887",
+      "platform": "0-703-0-skkub",
       "platform_name": "[skkub]",
       "format": "ODIM",
       "radar_meta": {
@@ -493,8 +487,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 20
+      }
     },
     "links": [
       {
@@ -517,7 +510,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 779028,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -543,9 +536,9 @@
       "naming_authority": "sk.shmu",
       "level": 4.4,
       "hamsl": 1425.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT15S",
-      "platform": "0-20000-0-11887",
+      "platform": "0-703-0-skkub",
       "platform_name": "[skkub]",
       "format": "ODIM",
       "radar_meta": {
@@ -568,8 +561,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 15
+      }
     },
     "links": [
       {
@@ -592,7 +584,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 779028,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -618,9 +610,9 @@
       "naming_authority": "sk.shmu",
       "level": 7.0,
       "hamsl": 1425.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT14S",
-      "platform": "0-20000-0-11887",
+      "platform": "0-703-0-skkub",
       "platform_name": "[skkub]",
       "format": "ODIM",
       "radar_meta": {
@@ -643,8 +635,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 14
+      }
     },
     "links": [
       {
@@ -667,7 +658,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 779028,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -693,9 +684,9 @@
       "naming_authority": "sk.shmu",
       "level": 11.4,
       "hamsl": 1425.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT15S",
-      "platform": "0-20000-0-11887",
+      "platform": "0-703-0-skkub",
       "platform_name": "[skkub]",
       "format": "ODIM",
       "radar_meta": {
@@ -718,8 +709,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 15
+      }
     },
     "links": [
       {
@@ -742,7 +732,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 779028,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -768,9 +758,9 @@
       "naming_authority": "sk.shmu",
       "level": 18.3,
       "hamsl": 1425.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT14S",
-      "platform": "0-20000-0-11887",
+      "platform": "0-703-0-skkub",
       "platform_name": "[skkub]",
       "format": "ODIM",
       "radar_meta": {
@@ -793,8 +783,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 14
+      }
     },
     "links": [
       {
@@ -817,7 +806,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 779028,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
@@ -843,9 +832,9 @@
       "naming_authority": "sk.shmu",
       "level": 26.7,
       "hamsl": 1425.0,
-      "function": "point",
+      "function": "scan",
       "period": "PT15S",
-      "platform": "0-20000-0-11887",
+      "platform": "0-703-0-skkub",
       "platform_name": "[skkub]",
       "format": "ODIM",
       "radar_meta": {
@@ -868,8 +857,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 15
+      }
     },
     "links": [
       {
@@ -892,7 +880,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 779028,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"

@@ -18,7 +18,7 @@
       "naming_authority": "nl.knmi",
       "level": 7.0,
       "hamsl": 0.0,
-      "function": "point",
+      "function": "comp",
       "period": "PT300S",
       "platform": "0-528-0-nldcomp",
       "platform_name": "",
@@ -48,8 +48,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 300
+      }
     },
     "links": [
       {
@@ -72,7 +71,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 26959,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
