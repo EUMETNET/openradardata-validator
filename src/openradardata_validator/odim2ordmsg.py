@@ -21,8 +21,8 @@ current_filedir = Path(__file__).parent.resolve()
 schema_dir = current_filedir / "schemas"
 radardb_dir = current_filedir / "stations"
 
-DEFAULT_WIGOS = "0-0-0-"
-DEFAULT_WMO = "0-20000-0-"
+default_wigos = ["0", "20010", "0", ""]
+default_wmo = ["0", "20000", "0", ""]
 test_schema_path = schema_dir / "odim_to_e_soh_message.json"
 
 # radars_format = {"WMO Code": "Int32" }
@@ -115,14 +115,22 @@ def parse_odim_source(odim: h5py.File, def_msg: dict[str, Any]) -> None:
     cty = find_source_type(source, "CTY")
     station = find_source_type(source, "PLC")
 
-    if wigos:
-        def_msg["properties"]["platform"] = wigos
-    else:
-        if wmo:
-            def_msg["properties"]["platform"] = DEFAULT_WMO + wmo.zfill(5)
+    if len(nod):
+        # ISO country code
+        cc = str(nod)[:2].lower()
+        default_wigos[1] = str(country_naming_auth[cc]["cc"])
+        def_msg["properties"]["platform"] = "-".join(default_wigos) + nod
+
+        if len(station):
+            def_msg["properties"]["platform_name"] = "[" + nod + "]" + " " + station
         else:
-            if nod:
-                def_msg["properties"]["platform"] = DEFAULT_WIGOS + nod
+            def_msg["properties"]["platform_name"] = "[" + nod + "]"
+    else:
+        if wigos:
+            def_msg["properties"]["platform"] = wigos
+        else:
+            if wmo:
+                def_msg["properties"]["platform"] = "-".join(default_wmo) + wmo.zfill(5)
             else:
                 if org == "247":
                     def_msg["properties"]["platform"] = "0-20010-0-" + "OPERA"
