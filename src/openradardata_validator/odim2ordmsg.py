@@ -420,7 +420,7 @@ def odim_openradar_msgmem(
     for msg in ret:
         data_link = default_data_link
         data_link["href"] = data_link_href
-        data_link["length"] = len(data_link_href)
+        data_link["length"] = len(odim_content)
         msg["links"].append(data_link)
 
     return ret
