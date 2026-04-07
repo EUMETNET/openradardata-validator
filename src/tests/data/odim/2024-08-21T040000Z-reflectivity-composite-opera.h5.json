@@ -47,8 +47,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 599
+      }
     },
     "links": [
       {
@@ -71,7 +70,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 2124532,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"

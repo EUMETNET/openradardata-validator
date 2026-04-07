@@ -20,7 +20,7 @@
       "hamsl": 193.0,
       "function": "scan",
       "period": "PT25S",
-      "platform": "0-20000-0-08550",
+      "platform": "0-620-0-ptlis",
       "platform_name": "[ptlis] Lisboa",
       "format": "ODIM",
       "radar_meta": {
@@ -43,8 +43,7 @@
         "unit": "%",
         "size": 1,
         "value": "0"
-      },
-      "period_int": 25
+      }
     },
     "links": [
       {
@@ -67,7 +66,7 @@
       },
       {
         "href": "https://placeholder.url",
-        "length": 23,
+        "length": 31619,
         "rel": "items",
         "title": "Link to data",
         "type": "application/x-odim"
