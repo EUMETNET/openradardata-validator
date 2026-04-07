@@ -94,7 +94,7 @@ def set_meta(
 ) -> None:
     for meta in m_attrs:
         meta_val = get_attr_str(m_src, meta)
-        if meta_val is not None and len(meta_val):
+        if meta_val:
             match fmt:
                 case "str":
                     m_dest[meta] = str(meta_val)
@@ -115,13 +115,13 @@ def parse_odim_source(odim: h5py.File, def_msg: dict[str, Any]) -> None:
     cty = find_source_type(source, "CTY")
     station = find_source_type(source, "PLC")
 
-    if len(nod):
+    if nod:
         # ISO country code
         cc = str(nod)[:2].lower()
         default_wigos[1] = str(country_naming_auth[cc]["cc"])
         def_msg["properties"]["platform"] = "-".join(default_wigos) + nod
 
-        if len(station):
+        if station:
             def_msg["properties"]["platform_name"] = "[" + nod + "]" + " " + station
         else:
             def_msg["properties"]["platform_name"] = "[" + nod + "]"
